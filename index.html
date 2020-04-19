@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Homepage</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
+  </head>
+
+  <body>
+    <div class="topbar">
+      <a href="#">About</a>
+      <a href="#">Store</a>
+      <span class="top-span">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a href="#"><img class="app-button" src="https://image.flaticon.com/icons/svg/60/60991.svg"/></a> 
+            <button id="signin-button" type="button">Sign in</button>
+        </span>
+      
+    </div>
+    <div class="div-google">
+      <img
+        class="google-img"
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      />
+    </div>
+    
+      <form class="search" action="">
+        <div class="div-search">
+          <img class="glass" src="data:image/png;base64,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" alt="">
+          <input class="searchbar" type="text" />
+          <img class="mic"
+            src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
+            alt=""
+          />
+        </div>
+        <div class="buttons">
+            <button class="search-but" type="button">Google Search</button>
+            <button class="lucky-but" type="button">I'm Feeling Lucky</button>
+        </div>
+      </form>
+    <div class="div-footer">
+        <a class="bot-left" href="#">Advertising</a>
+        <a class="bot-left" href="#">Business</a>
+        <a class="bot-left" href="#">How Search works</a>
+        <span class="bot-span">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </span>
+    </div>
+  </body>
+</html>
