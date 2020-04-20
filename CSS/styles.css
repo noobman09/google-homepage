@@ -145,6 +145,9 @@ body{
     font-size: 14px;
     font-weight: lighter;
 }
+.div-footer a:hover {
+    text-decoration: underline;
+}
 .bot-span {
     float: right;
     padding-right: 1.3rem;
